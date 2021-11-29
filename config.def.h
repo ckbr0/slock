@@ -12,6 +12,9 @@ static const char *colorname[NUMCOLS] = {
 /* treat a cleared input like a wrong password (color) */
 static const int failonclear = 1;
 
+/* time in seconds before the monitor shuts down */
+static const int monitortime = 0;
+
 /* default message */
 static const char * message = "";
 
